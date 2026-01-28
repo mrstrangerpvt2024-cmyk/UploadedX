@@ -755,14 +755,14 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'**🏷️ Fɪʟᴇ ID :**  {str(count).zfill(3)}\n\n' \
-        f'**🎞️ Tɪᴛʟᴇ :** `{name1} [{res}p] .mkv`\n\n' \
-        f'<pre>📚 𝗕ᴀᴛᴄʜ : {b_name}</pre>\n\n' \
-        f'**🎓 Exᴛʀᴀᴄᴛ Bʏ : {CR}**\n'
-                cc1 = f'**🏷️ Fɪʟᴇ ID :**  {str(count).zfill(3)}\n\n' \
-        f'**📑 Tɪᴛʟᴇ :** `{name1}.pdf`\n\n' \
-        f'<pre>📚 𝗕ᴀᴛᴄʜ : {b_name}</pre>\n\n' \
-        f'**🎓 Exᴛʀᴀᴄᴛ Bʏ : {CR}**\n'
+                cc = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n' \
+        f'**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n' \
+        f'**🔖 Batch :** `{b_name}`\n\n' \
+        f'**📥 Extracted By : {CR}**\n'
+                cc1 = f'╭━━━━━━━━━━━╮\n**🎥 FILE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n' \
+        f'**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n' \
+        f'**🔖 Batch :** `{b_name}`\n\n' \
+        f'**📥 Extracted By : {CR}**\n'
                 cczip = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n' \
         f'**🆔 𝑍𝐼𝑃 𝑰𝑑 :** `{count}`\n' \
         f'**📁 𝑇𝑖𝑡𝑙𝑒 :** `{name1}`\n' \
